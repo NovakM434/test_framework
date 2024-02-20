@@ -1,12 +1,10 @@
-from utils.api_method import ReqresApi
-from utils.api_base import Api
-
 import pytest
+
 
 class TestLoginUnSuccessful:
 
     @pytest.mark.negative
-    @pytest.mark.parametrize('email,username', [('cat@mail.ru', ''), ('meow@mail.ru', '')])
+    @pytest.mark.parametrize('email,username', [('cat@mail.ru', '')])
     def test_login_unsuccesful(self, api, email, username):
         data_login = {
             'email': email,

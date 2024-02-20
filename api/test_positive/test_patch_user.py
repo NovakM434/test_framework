@@ -1,8 +1,7 @@
-from utils.api_method import ReqresApi
-from utils.api_base import Api
+import pytest
+
 from data.data_users import records
 
-import pytest
 
 class TestReqresPatchUsers:
     @pytest.mark.positive

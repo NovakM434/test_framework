@@ -1,7 +1,7 @@
-from page.reqres_page import ReqresPage
-
 import requests
 import pytest
+
+from page.reqres_page import ReqresPage
 
 
 class TestMainPage:

@@ -4,6 +4,7 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.chrome.webdriver import ChromiumDriver
 from selenium.webdriver.support import expected_conditions as EC
 
+
 class BasePage:
 
     def __init__(self, driver) -> None:

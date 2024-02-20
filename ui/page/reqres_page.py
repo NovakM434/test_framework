@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 import json
 from selenium.webdriver.common.by import By
 
+
 class ReqresPage(BasePage):
     path = '/'
 

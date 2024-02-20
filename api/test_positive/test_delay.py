@@ -1,8 +1,6 @@
-from utils.api_method import ReqresApi
-from utils.api_base import Api
-
 import time
 import pytest
+
 
 class TestReqresDelay:
 
